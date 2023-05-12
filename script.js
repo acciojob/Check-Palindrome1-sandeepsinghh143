@@ -8,7 +8,7 @@ function palindrome(str){
 			i++;
 		}
 		if(j==" "){
-			j++;
+			j--;
 		}
 		if(str[i]!=str[j]){
 			console.log(false);
