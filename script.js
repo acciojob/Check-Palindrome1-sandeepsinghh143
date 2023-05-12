@@ -16,6 +16,6 @@ function palindrome(str){
 		i++;
 		j--;
 	}
-	return true;;
+	return true;
 }
 module.exports = palindrome
