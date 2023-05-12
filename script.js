@@ -11,12 +11,11 @@ function palindrome(str){
 			j--;
 		}
 		if(str[i]!=str[j]){
-			console.log(false);
-			return;
+			return false;
 		}
 		i++;
 		j--;
 	}
-	console.log(true);
+	return true;;
 }
 module.exports = palindrome
